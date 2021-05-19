@@ -3,6 +3,7 @@ create table players_names(
 	PLAYER_ID int primary key
 );
 
+
 create table games(
 	GAME_DATE_EST date,
 	GAME_ID int primary key,
@@ -107,6 +108,7 @@ create table games_details(
 	foreign key (PLAYER_ID) references players_names(PLAYER_ID)
 );
 
+
 ------ Remover as tabelas ---------
 
 drop table players_names cascade;
@@ -134,7 +136,7 @@ copy players_teams
 from '/home/players_teams.csv' csv header;
 
 copy games_details
-from '/home/games_details.csv' with delimiter ',' csv header;
+from '/home/games_details.csv' with DELIMITER ',' NULL '' CSV HEADER QUOTE;
 
 
 --- Para incluir o CSV no docker ---
