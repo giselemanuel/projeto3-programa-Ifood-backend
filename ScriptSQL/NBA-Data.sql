@@ -47,7 +47,7 @@ create table teams(
 );
 
 
-create table players(
+create table players_teams(
 	PLAYER_NAME varchar(255),
 	TEAM_ID integer, 
 	PLAYER_ID int, 
@@ -132,12 +132,11 @@ from '/home/ranking.csv' csv header;
 copy cad_players
 from '/home/cad_players.csv' csv header;
 
-copy players
+copy players_teams
 from '/home/players.csv' csv header;
 
 copy games_details
 from '/home/games_details.csv' csv header;
-
 
 
 --- Para incluir o CSV no docker ---
@@ -157,11 +156,4 @@ select * from games_details gd ;
 select * from ranking r ;
 
 select * from teams t ;
-
-
-
-
-
-
-
 
