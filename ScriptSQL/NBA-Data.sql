@@ -3,15 +3,6 @@ create table cad_players(
 	PLAYER_ID int primary key
 );
 
-create table players(
-	PLAYER_NAME varchar(255),
-	TEAM_ID integer, 
-	PLAYER_ID int, 
-	SEASON int,
-	foreign key (TEAM_ID) references teams(TEAM_ID),
-	foreign key (PLAYER_ID) references cad_players(PLAYER_ID)
-);
-
 
 create table games(
 	GAME_DATE_EST date,
@@ -36,21 +27,7 @@ create table games(
 	REB_away decimal, 
 	HOME_TEAM_WINS int
 );
-create table ranking(
-	TEAM_ID int,
-	LEAGUE_ID int, 
-	SEASON_ID int, 
-	STANDINGSDATE date,
-	CONFERENCE varchar(50),
-	TEAM varchar(255),
-	G int,
-	W int,
-	L int, 
-	W_PCT decimal,
-	HOME_RECORD varchar(50),
-	ROAD_RECORD varchar(50),
-	foreign key (TEAM_ID) references teams(TEAM_ID)
-);
+
 
 create table teams(
 	LEAGUE_ID int,
@@ -68,6 +45,34 @@ create table teams(
 	HEADCOACH varchar(255),
 	DLEAGUEAFFILIATION varchar(255)
 );
+
+
+create table players(
+	PLAYER_NAME varchar(255),
+	TEAM_ID integer, 
+	PLAYER_ID int, 
+	SEASON int,
+	foreign key (TEAM_ID) references teams(TEAM_ID),
+	foreign key (PLAYER_ID) references cad_players(PLAYER_ID)
+);
+
+
+create table ranking(
+	TEAM_ID int,
+	LEAGUE_ID int, 
+	SEASON_ID int, 
+	STANDINGSDATE date,
+	CONFERENCE varchar(50),
+	TEAM varchar(255),
+	G int,
+	W int,
+	L int, 
+	W_PCT decimal,
+	HOME_RECORD varchar(50),
+	ROAD_RECORD varchar(50),
+	foreign key (TEAM_ID) references teams(TEAM_ID)
+);
+
 
 create table games_details(
 	GAME_ID integer, 
@@ -100,13 +105,18 @@ create table games_details(
 	PLUS_MINUS decimal,
 	foreign key (GAME_ID) references games(GAME_ID),
 	foreign key (TEAM_ID) references teams(TEAM_ID),
-	foreign key (PLAYER_ID) references players(PLAYER_ID)
+	foreign key (PLAYER_ID) references cad_players(PLAYER_ID)
 );
 
 
+------ Remover as tabelas ---------
+
 drop table cad_players cascade;
 drop table players cascade;
-
+drop table games cascade;
+drop table games_details cascade;
+drop table ranking cascade;
+drop table teams cascade;
 
 ---- Para fazer a carga no  Dbeaver ---
 
@@ -119,22 +129,22 @@ from '/home/teams.csv' csv header;
 copy ranking
 from '/home/ranking.csv' csv header;
 
-copy games_details
-from '/home/games_details.csv' csv header;
-
+copy cad_players
+from '/home/cad_players.csv' csv header;
 
 copy players
 from '/home/players.csv' csv header;
 
-
-copy cad_players
-from '/home/cad_players.csv' csv header;
+copy games_details
+from '/home/games_details.csv' csv header;
 
 
 
 --- Para incluir o CSV no docker ---
 
-docker cp /Users/giselerodrigues/Downloads/NBA-data/cad_players.csv db_postgres:/home
+docker cp /Users/giselerodrigues/Git/projeto3-programa-Ifood-backend/Data-Base/NBA-data/games_details.csv db_postgres:/home
+
+---- Exibir todos os registros da tabela -----
 
 select * from players p ;
 
@@ -147,6 +157,7 @@ select * from games_details gd ;
 select * from ranking r ;
 
 select * from teams t ;
+
 
 
 
