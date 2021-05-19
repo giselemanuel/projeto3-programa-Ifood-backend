@@ -1,8 +1,7 @@
-create table cad_players(
+create table players_names(
 	PLAYER_NAME varchar(255),
 	PLAYER_ID int primary key
 );
-
 
 create table games(
 	GAME_DATE_EST date,
@@ -53,7 +52,7 @@ create table players_teams(
 	PLAYER_ID int, 
 	SEASON int,
 	foreign key (TEAM_ID) references teams(TEAM_ID),
-	foreign key (PLAYER_ID) references cad_players(PLAYER_ID)
+	foreign key (PLAYER_ID) references players_names(PLAYER_ID)
 );
 
 
@@ -105,14 +104,13 @@ create table games_details(
 	PLUS_MINUS decimal,
 	foreign key (GAME_ID) references games(GAME_ID),
 	foreign key (TEAM_ID) references teams(TEAM_ID),
-	foreign key (PLAYER_ID) references cad_players(PLAYER_ID)
+	foreign key (PLAYER_ID) references players_names(PLAYER_ID)
 );
-
 
 ------ Remover as tabelas ---------
 
-drop table cad_players cascade;
-drop table players cascade;
+drop table players_names cascade;
+drop table players_teams cascade;
 drop table games cascade;
 drop table games_details cascade;
 drop table ranking cascade;
@@ -129,25 +127,30 @@ from '/home/teams.csv' csv header;
 copy ranking
 from '/home/ranking.csv' csv header;
 
-copy cad_players
-from '/home/cad_players.csv' csv header;
+copy players_names
+from '/home/players_names.csv' csv header;
 
 copy players_teams
-from '/home/players.csv' csv header;
+from '/home/players_teams.csv' csv header;
 
 copy games_details
-from '/home/games_details.csv' csv header;
+from '/home/games_details.csv' with delimiter ',' csv header;
 
 
 --- Para incluir o CSV no docker ---
 
 docker cp /Users/giselerodrigues/Git/projeto3-programa-Ifood-backend/Data-Base/NBA-data/games_details.csv db_postgres:/home
+docker cp /Users/giselerodrigues/Git/projeto3-programa-Ifood-backend/Data-Base/NBA-data/players_names.csv db_postgres:/home
+docker cp /Users/giselerodrigues/Git/projeto3-programa-Ifood-backend/Data-Base/NBA-data/players_teams.csv db_postgres:/home
+docker cp /Users/giselerodrigues/Git/projeto3-programa-Ifood-backend/Data-Base/NBA-data/games.csv db_postgres:/home
+docker cp /Users/giselerodrigues/Git/projeto3-programa-Ifood-backend/Data-Base/NBA-data/ranking.csv db_postgres:/home
+docker cp /Users/giselerodrigues/Git/projeto3-programa-Ifood-backend/Data-Base/NBA-data/teams.csv db_postgres:/home
 
 ---- Exibir todos os registros da tabela -----
 
-select * from players p ;
+select * from players_names p ;
 
-select * from cad_players cp;
+select * from players_names cp;
 
 select * from games g ;
 
