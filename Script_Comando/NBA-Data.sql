@@ -1,7 +1,6 @@
 create table cad_players(
 	PLAYER_NAME varchar(255),
-	PLAYER_ID int primary key, 
-	foreign key (PLAYER_ID) references players(PLAYER_ID)
+	PLAYER_ID int primary key
 );
 
 create table players(
@@ -9,7 +8,8 @@ create table players(
 	TEAM_ID integer, 
 	PLAYER_ID int, 
 	SEASON int,
-	foreign key (TEAM_ID) references teams(TEAM_ID)
+	foreign key (TEAM_ID) references teams(TEAM_ID),
+	foreign key (PLAYER_ID) references cad_players(PLAYER_ID)
 );
 
 
@@ -104,6 +104,9 @@ create table games_details(
 );
 
 
+drop table cad_players cascade;
+drop table players cascade;
+
 
 ---- Para fazer a carga no  Dbeaver ---
 
@@ -134,6 +137,16 @@ from '/home/cad_players.csv' csv header;
 docker cp /Users/giselerodrigues/Downloads/NBA-data/cad_players.csv db_postgres:/home
 
 select * from players p ;
+
+select * from cad_players cp;
+
+select * from games g ;
+
+select * from games_details gd ;
+
+select * from ranking r ;
+
+select * from teams t ;
 
 
 
