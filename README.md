@@ -1,12 +1,18 @@
-# Projeto 3  - Data Visualization
+<img src="https://github.com/giselemanuel/projeto3-programa-Ifood-backend/blob/main/imagens/NBA.png" data-canonical-src="https://gyazo.com/eb5c5741b6a9a16c692170a41a49c858.png" width="1000" height="200" />  
+
+## Projeto 3  - Data Visualization
 
 
-## Informações do Grupo de Trabalho
+### Descriçãodo Projeto
+
+### Fluxograma do Storytelling
+
+### Informações do Grupo de Trabalho
 
 <table>
  <td align="center"><br>
         <a href="">
-            <img src="https://github.com/giselemanuel/projeto3-programa-Ifood-backend/blob/main/imagens/demetrio.jpg" width="105px;" alt="Demétrio Fragoso" style="max-width:100%;">
+            <img src="https://github.com/giselemanuel/projeto3-programa-Ifood-backend/blob/main/imagens/demetrio.jpg" width="150px;" alt="Demétrio Fragoso" style="max-width:100%;">
             <br><sub><b>Demétrio Fragoso</b></sub><br>
         <p align="center">
             </a>
@@ -17,7 +23,7 @@
 </td>
   <td align="center"><br>
         <a href="">
-            <img src="https://github.com/giselemanuel/projeto3-programa-Ifood-backend/blob/main/imagens/giselemannuel.JPG" width="105px;" alt="Gisele Rodrigues" style="max-width:100%;">
+            <img src="https://github.com/giselemanuel/projeto3-programa-Ifood-backend/blob/main/imagens/giselemannuel.JPG" width="150px;" alt="Gisele Rodrigues" style="max-width:100%;">
             <br><sub><b>Gisele Rodrigues</b></sub><br>
         <p align="center">
             </a>    
@@ -28,7 +34,7 @@
 </td>
   <td align="center"><br>
         <a href="">
-            <img src="https://github.com/giselemanuel/projeto3-programa-Ifood-backend/blob/main/imagens/jennifer.jpg" width="105px;" alt="Jennifer Stefanni" style="max-width:100%;">
+            <img src="https://github.com/giselemanuel/projeto3-programa-Ifood-backend/blob/main/imagens/jennifer.jpg" width="150px;" alt="Jennifer Stefanni" style="max-width:100%;">
             <br><sub><b>Jennifer Stefanni</b></sub><br>
         <p align="center">
             </a>    
@@ -39,7 +45,7 @@
 </td>
 <td align="center"><br>
         <a href="">
-            <img src="https://github.com/giselemanuel/projeto3-programa-Ifood-backend/blob/main/imagens/ludmila.png" width="105px;" alt="Ludmila Leal" style="max-width:100%;">
+            <img src="https://github.com/giselemanuel/projeto3-programa-Ifood-backend/blob/main/imagens/ludmila.png" width="150px;" alt="Ludmila Leal" style="max-width:100%;">
             <br><sub><b>Ludmila Leal</b></sub><br>
         <p align="center">
             </a>    
@@ -50,7 +56,7 @@
 </td>
 <td align="center"><br>
         <a href="">
-            <img src="https://github.com/giselemanuel/projeto3-programa-Ifood-backend/blob/main/imagens/luzivan.jpg" width="105px;" alt="Luzivan Lira" style="max-width:100%;">
+            <img src="https://github.com/giselemanuel/projeto3-programa-Ifood-backend/blob/main/imagens/luzivan.jpg" width="150px;" alt="Luzivan Lira" style="max-width:100%;">
             <br><sub><b>Luzivan Lira</b></sub><br>
         <p align="center">
             </a>    
