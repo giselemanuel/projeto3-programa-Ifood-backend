@@ -13,4 +13,11 @@ group by 1, 2
 order by 3 desc
 limit 10;
 
--- Qual o time que teve o maior numero de home_record na temporada?
+
+-- o numero de vitorias da franquia que LeBron jogou
+select distinct g.team_abbreviation, max(r.w), g.player_name
+from games_details g
+join teams t on g.team_id = t.team_id
+join ranking r on t.team_id = r.team_id
+where g.player_name like '%LeBron%'
+group by 1,3
