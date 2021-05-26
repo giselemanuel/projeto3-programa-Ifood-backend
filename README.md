@@ -3,7 +3,7 @@
 ## Projeto 3  - Data Visualization
 
 
-### Descriçãodo Projeto
+### Descrição do Projeto
 
 ### Fluxograma do Storytelling
 
