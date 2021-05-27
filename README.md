@@ -48,7 +48,7 @@ Para concluír este processo de aprendizagem fizemos uma análise exploratória 
 </td>
 <td align="center"><br>
         <a href="">
-            <img src="https://github.com/giselemanuel/projeto3-programa-Ifood-backend/blob/main/imagens/ludmila.png" width="150px;" alt="Ludmila Leal" style="max-width:100%;">
+            <img src="https://github.com/giselemanuel/projeto3-programa-Ifood-backend/blob/main/imagens/ludimila.png" width="150px;" alt="Ludmila Leal" style="max-width:100%;">
             <br><sub><b>Ludmila Leal</b></sub><br>
         <p align="center">
             </a>    
