@@ -21,3 +21,5 @@ join teams t on g.team_id = t.team_id
 join ranking r on t.team_id = r.team_id
 where g.player_name like '%LeBron%'
 group by 1,3
+
+-- Qual a franquia que teve mais vitorias na ultima decada?
