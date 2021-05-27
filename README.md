@@ -1,9 +1,12 @@
 <img src="https://github.com/giselemanuel/projeto3-programa-Ifood-backend/blob/main/imagens/NBA.png" data-canonical-src="https://gyazo.com/eb5c5741b6a9a16c692170a41a49c858.png" width="1000" height="200" />  
 
-## Projeto 3  - Data Visualization
-
+## Projeto 3  - Visualização de Dados
 
 ### Descrição do Projeto
+
+Este é o terceiro projeto da formação de Analista de dados do programa VamoAi do [Ifood](https://www.linkedin.com/posts/ifood-_inteligaeanciaartificial-tecnologia-dados-activity-6727679437791342592-opfn) com parceria da [Resilia Educação](https://www.linkedin.com/school/resilia-educacao/) duranta o módulo os alunos aprenderam os conceitos de Introdução a dados, Banco de dados relacionais, Relacionamento,Levantamento de requisitos, Docker, Gerenciamento e arquitetura de banco, CRUD, Join, Subqueries, Visualização de dados.
+
+Para concluír este processo de aprendizagem fizemos uma análise exploratória ao banco de dados [NBA Games Data](https://www.kaggle.com/nathanlauga/nba-games?select=games.csv), extraído do site da [Kaggle](https://www.kaggle.com/datasets), utilizando a ferramenta [Metabase](https://www.metabase.com) onde buscamos projetar insights dos dados analisados exibidos através de Dashboards.
 
 ### Fluxograma do Storytelling
 
