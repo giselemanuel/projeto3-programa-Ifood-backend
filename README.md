@@ -17,7 +17,6 @@ A liga hoje nomeada de NBA ( National Basketball Association) foi criada por uma
 
 ### Diagrama ER
 ---
-Apartir do Diagrama 
 ![ER](https://github.com/giselemanuel/projeto3-programa-Ifood-backend/blob/main/imagens/ER.png)
 
 ### Visualização dos Dados
