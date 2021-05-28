@@ -14,6 +14,10 @@ Para concluír este processo de aprendizagem fizemos uma análise exploratória 
 ![Dashboard-1](https://github.com/giselemanuel/projeto3-programa-Ifood-backend/blob/main/imagens/Dashboard-1.png)
 ![Dashboard-2](https://github.com/giselemanuel/projeto3-programa-Ifood-backend/blob/main/imagens/Dashboard-2.png)
 
+### Diagrama ER
+
+![ER](https://github.com/giselemanuel/projeto3-programa-Ifood-backend/blob/main/imagens/ER.png)
+
 ### Informações do Grupo de Trabalho
 
 <table>
