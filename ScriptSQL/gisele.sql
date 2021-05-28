@@ -60,27 +60,25 @@ order by standingsdate desc
 -- No ano anterior ( que ele não estava presente) qual foi o número de vitórias  da franquia na  temporada. ( tb_ranking , coluna W)
     -- CLE 2003 total de vitórias da frun
 
-
-
 -- Qual a franquia  que teve mais vitórias na última década ?
 -- Lista soma de vitórias por ano de cada franquia 
     -- Miami  2019 69
     -- Lakers 2019 80
 
--- select team_id,season_id, standingsdate, w, l
--- from ranking
--- where team like 'Miami' and season_id = 22011
--- group by 1, 2, 3, 4, 5
--- order by standingsdate desc
+select team_id,season_id, standingsdate, w, l
+from ranking
+where team like 'Miami' and season_id = 22011
+group by 1, 2, 3, 4, 5
+order by standingsdate desc
 
 
 -- -- 2019
--- select team, season_id, max(w) as total
--- from ranking
--- where season_id = 22019
--- -- where season_id between 22003 and 2019
--- group by 1, 2
--- order by total
+select team, season_id, max(w) as total
+from ranking
+where season_id = 22019
+-- where season_id between 22003 and 2019
+group by 1, 2
+order by total
 
 
 -- 2018
