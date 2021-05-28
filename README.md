@@ -9,6 +9,12 @@ Este é o terceiro projeto da formação de Analista de dados do programa VamoAI
 
 Para concluír este processo de aprendizagem fizemos uma análise exploratória ao banco de dados [NBA Games Data](https://www.kaggle.com/nathanlauga/nba-games?select=games.csv), extraído do site da [Kaggle](https://www.kaggle.com/datasets), utilizando a ferramenta [Metabase](https://www.metabase.com) onde buscamos projetar insights dos dados analisados exibidos através de Dashboards.
 
+### História da NBA
+---
+
+A liga, hoje nomeada de NBA ( National Basketball Association) foi criada por uma fusão entre a antiga associação BAA (Basketball Association of America) e a rival NBL (National Basketball League) em 1946, assim se tornando atualmente a principal associação nacional do Basquetebol profissional da América do Norte. Com 30 franquias, totalizando 29 nos estados unidos e 1 no Canadá. NBA também é considerada a principal liga de basquete do mundo e tem os jogadores esportistas  mais bem pagos do mundo, por salário médio anual. Atualmente, a liga é transmitida pela Sport TV e NBA TV em Portugal, e no Brasil pela Band na TV Aberta, entre outros canais de transmissão.
+
+
 ### Diagrama ER
 ---
 
