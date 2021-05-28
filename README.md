@@ -12,7 +12,7 @@ Para concluír este processo de aprendizagem fizemos uma análise exploratória 
 ### História da NBA
 ---
 
-A liga, hoje nomeada de NBA ( National Basketball Association) foi criada por uma fusão entre a antiga associação BAA (Basketball Association of America) e a rival NBL (National Basketball League) em 1946, assim se tornando atualmente a principal associação nacional do Basquetebol profissional da América do Norte. Com 30 franquias, totalizando 29 nos estados unidos e 1 no Canadá. NBA também é considerada a principal liga de basquete do mundo e tem os jogadores esportistas  mais bem pagos do mundo, por salário médio anual. Atualmente, a liga é transmitida pela Sport TV e NBA TV em Portugal, e no Brasil pela Band na TV Aberta, entre outros canais de transmissão.
+A liga hoje nomeada de NBA ( National Basketball Association) foi criada por uma fusão entre a antiga associação BAA (Basketball Association of America) e a rival NBL (National Basketball League) em 1946, assim se tornando atualmente a principal associação nacional do Basquetebol profissional da América do Norte. Com 30 franquias, totalizando 29 nos estados unidos e 1 no Canadá. NBA também é considerada a principal liga de basquete do mundo e tem os jogadores esportistas  mais bem pagos do mundo, por salário médio anual. Atualmente, a liga é transmitida pela Sport TV e NBA TV em Portugal, e no Brasil pela Band na TV Aberta, entre outros canais de transmissão.
 
 
 ### Diagrama ER
