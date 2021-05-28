@@ -9,14 +9,15 @@ Este é o terceiro projeto da formação de Analista de dados do programa VamoAI
 
 Para concluír este processo de aprendizagem fizemos uma análise exploratória ao banco de dados [NBA Games Data](https://www.kaggle.com/nathanlauga/nba-games?select=games.csv), extraído do site da [Kaggle](https://www.kaggle.com/datasets), utilizando a ferramenta [Metabase](https://www.metabase.com) onde buscamos projetar insights dos dados analisados exibidos através de Dashboards.
 
+### Diagrama ER
+
+![ER](https://github.com/giselemanuel/projeto3-programa-Ifood-backend/blob/main/imagens/ER.png)
+
 ### Visualização dos Dados
 ---
 ![Dashboard-1](https://github.com/giselemanuel/projeto3-programa-Ifood-backend/blob/main/imagens/Dashboard-1.png)
 ![Dashboard-2](https://github.com/giselemanuel/projeto3-programa-Ifood-backend/blob/main/imagens/Dashboard-2.png)
 
-### Diagrama ER
-
-![ER](https://github.com/giselemanuel/projeto3-programa-Ifood-backend/blob/main/imagens/ER.png)
 
 ### Informações do Grupo de Trabalho
 
