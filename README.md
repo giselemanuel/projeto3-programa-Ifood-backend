@@ -25,7 +25,7 @@ A liga hoje nomeada de NBA ( National Basketball Association) foi criada por uma
 ![Dashboard-2](https://github.com/giselemanuel/projeto3-programa-Ifood-backend/blob/main/imagens/Dashboard-2.png)
 
 
-### Informações do Grupo de Trabalho
+### Informações do Grupo
 ---
 
 <table>
